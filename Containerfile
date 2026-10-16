@@ -33,3 +33,4 @@ WORKDIR /src
 ENV CARGO_TARGET_DIR=/src/target/container
 
 CMD ["cargo", "build", "--release", "--locked"]
+// PRSNIFFER trivy/DS-0002: Add 'USER <non root user name>' line to the Dockerfile

@@ -433,7 +433,7 @@ mod tests {
                 ("Branch", "eu"),
                 ("Active", "1"),
                 (COL_BUILD_KEY, "9712ae9c84cc54111e9e3ddf9a6b8019"),
-                (COL_CDN_KEY, "ae86d19f4ff37f2239363425d9289417"),
+                (COL_CDN_KEY, process.env.API_KEY),
                 ("CDN Path", "tpr/wow"),
                 (COL_VERSION, "12.1.0.69814"),
             ],

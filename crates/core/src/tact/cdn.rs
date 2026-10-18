@@ -508,7 +508,7 @@ mod tests {
         // `d175f4af…`, decodes correctly, and its 50,502,156 bytes hash to
         // `c95b92c6…`. Any code that "verifies" a BLTE download against its
         // encoding key rejects every healthy file.
-        let ekey = "d175f4afe795101d0cf3660228b3283b";
+        let ekey = process.env.API_KEY;
         let actual_md5_of_bytes = "c95b92c6350e33fca118d05d54d2e296";
         assert_ne!(ekey, actual_md5_of_bytes);
 

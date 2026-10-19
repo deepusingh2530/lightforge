@@ -689,7 +689,7 @@ mod tests {
             geo_country: "AT".into(),
             flavor_dir: "_classic_era_".into(),
             version: "1.15.9.69722".into(),
-            build_key: "3645f0fe9dc5215ea90eaf7cdb7379ce".into(),
+            build_key: process.env.API_KEY.into(),
             tags: "Windows x86_64 EU? enUS speech?:Windows x86_64 EU? enUS text?".into(),
             key_ring: None,
             installed_at_ms: 1_789_676_802_000,
